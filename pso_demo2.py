@@ -1,6 +1,7 @@
 import numpy as np
-from particle import Particle
-from pso import ParticleSwarmOptimizer
+import numpy as np
+from swarm_intelligence.particle import Particle
+from swarm_intelligence.pso import ParticleSwarmOptimizer
 from matplotlib import pyplot as plt
     
 mean_01 = np.array([1.0, 2.0])
