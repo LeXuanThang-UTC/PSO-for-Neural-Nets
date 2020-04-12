@@ -1,6 +1,6 @@
 import numpy as np
-from particle import Particle
-from pso import ParticleSwarmOptimizer
+from swarm_intelligence.particle import Particle
+from swarm_intelligence.pso import ParticleSwarmOptimizer
 
 def fn(x):
     return 5 * x + 3
